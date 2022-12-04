@@ -7,7 +7,8 @@
     .byte $00,$00,$00
 .segment "STARTUP"
 start:
-    jmp xx
+    jmp main
 .segment "CODE"
-xx:
+main:
+
     rts
